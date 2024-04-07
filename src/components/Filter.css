@@ -1,0 +1,22 @@
+.btn-filter{
+    margin-left: 6.7vw;
+    margin-top: 2vw;
+    border: 1px solid #F15700;
+    border-radius: 5px;;
+    width: 6.4vw;
+    height: 3vw;
+    font-weight: 900;
+    color: #F15700;
+}
+.btn-filter:hover{
+    background-color: #F15700;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+@media (max-width:600px) {
+    .btn-filter{
+        width: 26vw;
+        height: 10vw;
+        margin-left: 5vw;
+    }
+}

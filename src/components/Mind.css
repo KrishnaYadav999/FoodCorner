@@ -1,0 +1,40 @@
+.scroll-container {
+    display: none;
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    height: 14vw; 
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .parent {
+    display: inline-block;
+    padding-top: 1vw;
+    border-radius: 50px;
+  }
+  
+  .mind-main {
+    width: 20vw;
+    height: 10vw;
+    display: inline-block;
+  }
+
+  @media (max-width:600px) {
+    .scroll-container {
+        display: block;
+        height: 30vw;
+      }
+      .imagess{
+          width: 33vw;
+          padding: 2vw 7vw;
+          border-radius: 10px;
+      }
+      .para{
+        padding-left: 11vw;
+      }
+  }
+  

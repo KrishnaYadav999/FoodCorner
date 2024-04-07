@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #fff;
+}
+.mobile{
+    display: none;
+}
+.manu-btn{
+    display: none;
+}
+.logo{
+    padding-top: 1vw;
+    padding-left: 2vw;
+    font-weight: 900;
+    color: black;
+    font-size: 1.8vw;
+}
+.go{
+    color: #F15700;
+}
+.ser{
+    margin-left: 18vw;
+    width: 30vw;
+    height: 3vw;
+    margin-top: 1vw;
+    padding-left: 1vw;
+}
+.btn{
+    height: 3vw;
+    width: 5vw;
+    border: none;
+    color: #fff;
+    background-color: #F15700;
+    margin-top: 1vw;
+    border-radius: 0px;
+    font-weight: 500;
+}
+.nav-flixt{
+    display: flex;
+}
+.btn:hover{
+    background-color: #F15700;
+    color: #fff;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5vw;
+    padding-left: 14vw;
+    padding-top: 1.8vw;
+    color: black;
+}
+.sing{
+    height: 3vw;
+    width: 5vw;
+    border: 1px solid #F15700;
+    color: #F15700;
+    margin-bottom: 0.4vw;
+    border-radius: 0px;
+    font-weight: 500;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    font-weight: 900;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.sing:hover{
+    transition: all ease 0.5s;
+    background-color: #F15700;
+    color: #fff;
+}
+li{
+    cursor: pointer;
+    font-weight: 600;
+}
+.animation{
+    display: none;
+}
+/* mobile */
+@media (max-width:600px) {
+    .manu-btn{
+        display: block;
+    }
+    nav{
+        width: 100vw;
+        height: 15vw;
+    }
+    .logo{
+        padding-top: 5vw;
+        padding-left: 2vw;
+        font-weight: 900;
+        color: black;
+        font-size: 5vw;
+    }
+    .ser{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    .sing{
+        display: none;
+    }
+    .slow{
+        margin-top: 4.5vw;
+        position: fixed;
+        transition: 0.5s;
+        width: 60vw;
+        height: 100vh;
+        background-color: #F15700;
+        right: -100%;
+    }
+    .display{
+        right: 0%;
+    }
+    .manu-btn{
+        margin-left: 50vw;
+        margin-top: 4vw;
+        width: 10vw;
+        color: #fff;
+        background-color: #F15700;
+        border: none;
+        border-radius: 3px;
+    }
+    .ulshow{
+        display: block;
+        margin-top: 10vw;
+    }
+    .ulshow li{
+        padding-top: 5vw;
+        font-weight: 900;
+        color: #fff;
+        font-size: x-large;
+        display: block;
+    }
+}

@@ -1,0 +1,38 @@
+export let allcat = [
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/southindain.jpeg",
+    path:"South"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+{
+    img:"./images/pizza.jpg",
+    path:"pizza"
+},
+];

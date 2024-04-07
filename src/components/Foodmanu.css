@@ -1,0 +1,55 @@
+.bodymanu {
+    width: 40vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 30vw;
+    display: none; 
+}
+
+.bodymanu.show {
+    display: block; 
+}
+
+.foodm button {
+    width: 9vw;
+    height: 3vw;
+    background-color: #F15700;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vw;
+    left: 93vw;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+}
+.zero{
+    padding-left: 38vw;
+    font-weight: 900;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: none;
+    color: #fff;
+}
+
+@media (max-width:600px) {
+    .foodm{
+        display: none;
+    }
+    .zero{
+        display: none;
+    }
+    .foodm button{
+        display: none;
+    }
+    .bodymanu.show{
+        display: none;
+    }
+}
